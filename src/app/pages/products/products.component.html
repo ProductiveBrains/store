@@ -1,0 +1,24 @@
+
+<!-- <pre>
+  {{products | json}}
+</pre> -->
+
+<section class="products">
+  <mat-card class="card" *ngFor="let product of products">
+      <mat-card-header>
+          <mat-card-title>{{ product.apellido}} {{ product.nombre}}</mat-card-title>
+          <mat-card-subtitle>{{ product.CUIL}}</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content>
+        {{ product.localidad}}
+      </mat-card-content>
+
+      <mat-card-actions align="start">
+          <button mat-raised-button color="accent">Detalles<mat-icon >info</mat-icon></button>
+
+      </mat-card-actions>
+  </mat-card>
+
+
+</section>

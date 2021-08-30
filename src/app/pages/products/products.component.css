@@ -1,0 +1,19 @@
+section.products .card{
+  margin:5px;
+  min-height: 135px;
+  min-width: 400px;
+  max-width: 400px;
+  height: 100%;
+  background-color: bisque;
+}
+section.products button{
+  width: 100%;
+}
+
+section.products{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin-top:20px;
+}
